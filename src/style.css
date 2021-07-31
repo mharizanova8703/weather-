@@ -1,0 +1,137 @@
+h1 {
+  font-family: 'Srisakdi', cursive;
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+h2 {
+  font-family: 'Srisakdi', cursive;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+li {
+  list-style: none;
+  text-align: left;
+}
+
+.container {
+  font-family: 'Srisakdi', cursive;
+  color: #dc6b9c;
+  max-height: 650px;
+  max-width: 940px;
+}
+
+.bg-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.weather-wrapper {
+  border: 2px solid #f6a9ce;
+  border-radius: 10px;
+}
+
+.btn-group {
+  position: relative;
+  margin-top: 10px;
+  margin-left: 800px;
+  border-radius: 4px;
+}
+
+#day-button {
+  padding: 1px 6px;
+  padding: 3px 8px;
+  background: #f6a9ce;
+  border: #f6a9ce;
+  color: #7beaf3;
+  font-size: bold;
+  font-weight: 700;
+}
+
+#night-button {
+  padding: 1px 6px;
+  padding: 3px 8px;
+  background: black;
+  border: black;
+  color: #f6a9ce;
+  font-size: bold;
+  font-weight: 700;
+}
+
+#current-temp,
+#current-specs {
+  font-size: 20px;
+}
+
+.current-temp img {
+  position: relative;
+  top: -10px;
+  right: 7px;
+  height: 70px;
+}
+
+.current-temp strong {
+  font-size: 36px;
+}
+
+#current-description {
+  margin-left: 50px;
+  text-transform: capitalize;
+}
+
+.current-temp .unit {
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  top: -13px;
+}
+
+.search {
+  text-align: center;
+}
+
+input[type='submit'] {
+  background: #f6a9ce;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+#gps-search-form {
+  background: #f6a9ce;
+  border-radius: 4px;
+  margin: 15px;
+}
+
+.weather-forecast {
+  font-size: 18px;
+  margin-top: 45px;
+}
+
+.weather-forecast .forecast-day {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.forecast-temp .forecast-high {
+  font-weight: bold;
+}
+
+a {
+  color: #f6a9ce;
+}
+
+a:hover {
+  color: #7beaf3;
+}
+
+.GitHub-link {
+  color: #f6a9ce;
+  text-align: left;
+}

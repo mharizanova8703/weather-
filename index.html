@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Le temps en rose</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Srisakdi:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="bg-image" style="background-image: url('media/day.jpg');">
+      <div class="weather-wrapper">
+        <div class="btn-group" role="group">
+        <button type="button" class="btn" onclick="dayMode()" id="day-button">Day</button>
+        <button type="button" class="btn" onclick="nightMode()" id="night-button">Night</button>
+        </div>
+        <div class="search">
+          <form id="city-search-form">
+            <input
+              type="text"
+              id="city-input"
+              placeholder="Enter location"
+              autocomplete="off"
+            />
+            <input type="submit" value="Search"/>
+            <br />
+            <button id="gps-search-form">Use current location</button>
+            <div class="header">
+              <h1>Paris</h1>
+              <h2>Saturday, 5 June at 18:52</h2>
+            </div>
+            <div class="row" id="today">
+              <div class="col" id="current-temp">
+                <div class="clearfix current-temp">
+                  <ul>
+                    <li>
+                      <img src="" alt="" class="float-left" id="icon" />
+                      <strong id="temperature">23</strong><span class=unit>˚F</span>
+                    </li>
+                    <li id="current-description">Cloudy</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col" id="current-specs">
+                <ul>
+                  <li>High: <span class="current-high">23</span>˚</li>
+                  <li>Low: <span class="current-low">18</span>˚</li>
+                  <li>Humidity: <span class="current-humidity">80</span>%</li>
+                  <li>Wind speed: <span class="current-wind">2</span> mph</li>
+                </ul>
+              </div>
+            </div>
+            <div class="weather-forecast" id="forecast"></div>
+    </div>
+    </div>
+    </div>
+  <span id="GitHub-link">
+              <a
+                href=""
+                target="_blank"
+                >Open-source code</a
+              >
+              by Mariya Harizanova
+            </span>
+            <script src="src/app.js"></script>
+  </body>
+</html>
