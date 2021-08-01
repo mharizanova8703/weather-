@@ -21,7 +21,7 @@ li {
 
 .container {
   font-family: 'Srisakdi', cursive;
-  color: purple;
+  color: rgb(124, 0, 128);
   max-height: 750px;
   max-width: 900px;
 }
@@ -78,7 +78,7 @@ li {
 }
 
 .current-temp strong {
-  font-size: 36px;
+  font-size: 50px;
 }
 
 #current-description {
