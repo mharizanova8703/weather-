@@ -21,7 +21,7 @@ li {
 
 .container {
   font-family: 'Srisakdi', cursive;
-  color: #dc6b9c;
+  color: #f6a9ecb0;
   max-height: 650px;
   max-width: 940px;
 }
@@ -34,8 +34,8 @@ li {
 }
 
 .weather-wrapper {
-  border: 2px solid #f6a9ce;
-  border-radius: 10px;
+  border: 2px solid #700a3b;
+  border-radius: 20px;
 }
 
 .btn-group {
