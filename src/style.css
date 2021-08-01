@@ -21,9 +21,9 @@ li {
 
 .container {
   font-family: 'Srisakdi', cursive;
-  color: black;
-  max-height: 650px;
-  max-width: 940px;
+  color: rgb(47, 102, 255);
+  max-height: 750px;
+  max-width: 900px;
 }
 
 .bg-image {
@@ -41,7 +41,7 @@ li {
 .btn-group {
   position: relative;
   margin-top: 10px;
-  margin-left: 800px;
+  margin-left: 750px;
   border-radius: 4px;
 }
 
@@ -74,7 +74,7 @@ li {
   position: relative;
   top: -10px;
   right: 7px;
-  height: 70px;
+  height: 100px;
 }
 
 .current-temp strong {
@@ -87,7 +87,7 @@ li {
 }
 
 .current-temp .unit {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
   position: relative;
   top: -13px;
@@ -110,7 +110,7 @@ input[type='submit'] {
 }
 
 .weather-forecast {
-  font-size: 18px;
+  font-size: 26px;
   margin-top: 45px;
 }
 
