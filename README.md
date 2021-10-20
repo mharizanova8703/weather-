@@ -9,3 +9,6 @@ This app is build with next futures:
 * CSS
 * JavaScript 
 * API
+* Create a search input for customer input
+3 API calls for Current Weather, 5-day Forecast
+3 Separate cards with search history, current weather and 5-day weather
